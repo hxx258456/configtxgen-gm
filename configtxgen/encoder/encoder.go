@@ -78,7 +78,7 @@ func AddOrdererPolicies(cg *cb.ConfigGroup, policyMap map[string]*genesisconfig.
 	switch {
 	case policyMap == nil:
 		return errors.Errorf("no policies defined")
-	case policyMap["Blockvalidation"] == nil:
+	case policyMap["BlockValidation"] == nil:
 		return errors.Errorf("no BlockValidation policy defined")
 	}
 
