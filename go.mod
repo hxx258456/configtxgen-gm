@@ -6,17 +6,8 @@ require (
 	github.com/golang/protobuf v1.5.2
 	github.com/hxx258456/fabric-gm v0.0.2
 	github.com/hxx258456/fabric-protos-go-gm v0.0.2
-	github.com/hxx258456/fabric-sdk-go-gm v0.0.4
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/viper v1.10.1
-)
-
-replace (
-	github.com/mitchellh/mapstructure => github.com/mitchellh/mapstructure v1.3.3
-	github.com/spf13/viper => github.com/spf13/viper v0.0.0-20150908122457-1967d93db724
-	// github.com/hxx258456/fabric-protos-go-gm => /home/zhaochun/work/sources/gcbaas/fabric-protos-go-gm
-	github.com/zmap/zcrypto => github.com/zmap/zcrypto v0.0.0-20190729165852-9051775e6a2e
-	github.com/zmap/zlint => github.com/zmap/zlint v0.0.0-20190806154020-fd021b4cfbeb
 )
 
 require (
@@ -39,7 +30,6 @@ require (
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rogpeppe/go-internal v1.6.1 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
@@ -57,5 +47,12 @@ require (
 	google.golang.org/genproto v0.0.0-20221024183307-1bc688fe9f3e // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
+
+replace (
+	github.com/mitchellh/mapstructure => github.com/mitchellh/mapstructure v1.3.3
+	github.com/spf13/viper => github.com/spf13/viper v0.0.0-20150908122457-1967d93db724
+	// github.com/hxx258456/fabric-protos-go-gm => /home/zhaochun/work/sources/gcbaas/fabric-protos-go-gm
+	github.com/zmap/zcrypto => github.com/zmap/zcrypto v0.0.0-20190729165852-9051775e6a2e
+	github.com/zmap/zlint => github.com/zmap/zlint v0.0.0-20190806154020-fd021b4cfbeb
 )

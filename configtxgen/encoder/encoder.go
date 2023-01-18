@@ -11,7 +11,7 @@ Please review third_party pinning scripts and patches for more details.
 package encoder
 
 import (
-	flogging "github.com/hxx258456/configtxgen-gm/logbridge"
+	"log"
 
 	"github.com/hxx258456/configtxgen-gm/identity"
 
@@ -38,8 +38,6 @@ const (
 	msgVersion = int32(0)
 	epoch      = 0
 )
-
-var logger = flogging.MustGetLogger("common.tools.configtxgen.encoder")
 
 const (
 	// ConsensusTypeSolo identifies the solo consensus implementation.
@@ -614,7 +612,7 @@ func NewBootstrapper(config *genesisconfig.Profile) (*Bootstrapper, error) {
 func New(config *genesisconfig.Profile) *Bootstrapper {
 	bs, err := NewBootstrapper(config)
 	if err != nil {
-		logger.Panicf("Error creating bootsrapper: %s", err)
+		log.Panicf("Error creating bootsrapper: %s", err)
 	}
 	return bs
 }

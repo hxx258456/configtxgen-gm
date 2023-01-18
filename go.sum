@@ -38,8 +38,6 @@ github.com/hxx258456/fabric-gm v0.0.2 h1:z2QRdhx7h9b2EEadCcJWvzWHYaEXTzEEvGf7t7e
 github.com/hxx258456/fabric-gm v0.0.2/go.mod h1:nB+xPC5kOot4eHRFrrOfmmaATqkjxbHWnAiQQqBWd18=
 github.com/hxx258456/fabric-protos-go-gm v0.0.2 h1:EYPdNXHnhIuGTlSKlobYdrh3CFW3Urx/JdaiDCBwLMg=
 github.com/hxx258456/fabric-protos-go-gm v0.0.2/go.mod h1:UruskJrLUA+aZkVgpI8PTT8vKqVZk4ktSDurWk8GY3M=
-github.com/hxx258456/fabric-sdk-go-gm v0.0.4 h1:0SrP3Zl8YoAShML3noj69SNjZoyjQyo/Bz3TaYogCQM=
-github.com/hxx258456/fabric-sdk-go-gm v0.0.4/go.mod h1:Ygue5xv5GP9pke59/xFpjmWMehrlkHxQwIVZh2CaA+U=
 github.com/hxx258456/saramagm v0.0.2 h1:A8AkAidgzVIfMweculAjHIaT73S1sE3GcvX5gFRr/YM=
 github.com/hxx258456/saramagm v0.0.2/go.mod h1:zZzaz7jcSUA6qz7uQyQXy1DH3hpUtEgWhTsWpQ4Kjhk=
 github.com/hyperledger/fabric-amcl v0.0.0-20210603140002-2670f91851c8 h1:BCR8ZlOZ+deUbWxyY6fpoY8LbB7PR5wGGwCTvWQOU2g=
