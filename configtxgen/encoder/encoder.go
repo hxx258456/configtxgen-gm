@@ -78,7 +78,7 @@ func AddOrdererPolicies(cg *cb.ConfigGroup, policyMap map[string]*genesisconfig.
 	switch {
 	case policyMap == nil:
 		return errors.Errorf("no policies defined")
-	case policyMap["blockvalidation"] == nil:
+	case policyMap["Blockvalidation"] == nil:
 		return errors.Errorf("no BlockValidation policy defined")
 	}
 
@@ -89,11 +89,11 @@ func AddPolicies(cg *cb.ConfigGroup, policyMap map[string]*genesisconfig.Policy,
 	switch {
 	case policyMap == nil:
 		return errors.Errorf("no policies defined")
-	case policyMap["admins"] == nil:
+	case policyMap["Admins"] == nil:
 		return errors.Errorf("no Admins policy defined")
-	case policyMap["readers"] == nil:
+	case policyMap["Readers"] == nil:
 		return errors.Errorf("no Readers policy defined")
-	case policyMap["writers"] == nil:
+	case policyMap["Writers"] == nil:
 		return errors.Errorf("no Writers policy defined")
 	}
 
